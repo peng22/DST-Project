@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './module/auth/login/login.component';
 import { RegisterComponent } from './module/auth/register/register.component';
+import { AboutDstComponent } from './about-dst/about-dst.component';
+import { FoundersComponent } from './founders/founders.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { RegisterComponent } from './module/auth/register/register.component';
     FooterComponent,
     AboutComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AboutDstComponent,
+    FoundersComponent
   ],
   imports: [
     BrowserModule,
