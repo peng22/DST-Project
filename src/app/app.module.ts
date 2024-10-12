@@ -1,17 +1,15 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { FormsModule } from '@angular/forms';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './about/about.component';
-import { LoginComponent } from './module/auth/login/login.component';
-import { RegisterComponent } from './module/auth/register/register.component';
-import { AboutDstComponent } from './about-dst/about-dst.component';
-import { FoundersComponent } from './founders/founders.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { HomeComponent } from "./home/home.component";
+import { FormsModule } from "@angular/forms";
+import { NavbarComponent } from "./navbar/navbar.component";
+import { FooterComponent } from "./footer/footer.component";
+import { AboutComponent } from "./about/about.component";
+import { AboutDstComponent } from "./about-dst/about-dst.component";
+import { FoundersComponent } from "./founders/founders.component";
 
 @NgModule({
   declarations: [
@@ -20,17 +18,12 @@ import { FoundersComponent } from './founders/founders.component';
     NavbarComponent,
     FooterComponent,
     AboutComponent,
-    LoginComponent,
-    RegisterComponent,
     AboutDstComponent,
-    FoundersComponent
+    FoundersComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+
+export class AppModule {}

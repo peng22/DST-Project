@@ -3,47 +3,12 @@
   <div class="row text-center">
     <div class="col-md-3 col-sm-6" *ngFor="let founder of founders">
       <img
-        src="founders/images/bassem.png"
+        src="{{ founder.image }}"
         class="img-fluid rounded-circle"
-        alt="Bassem Yahia"
+        alt="{{ founder.name }}"
       />
-      <h5>BASSEM YAHIA</h5>
-      <p class="card-text">Co-Founder & Chief Executive Officer</p>
-    </div>
-
-    <!-- ............... -->
-
-    <div class="col-md-3 col-sm-6" *ngFor="let founder of founders">
-      <img
-        src="founders/images/mohamed.png"
-        class="img-fluid rounded-circle"
-        alt="Mohamed Yahia"
-      />
-      <h5>MOHAMED YAHIA</h5>
-      <p class="card-text">Co-Founder & Chief Marketing Officer</p>
-    </div>
-
-    <!-- ........... -->
-    <div class="col-md-3 col-sm-6" *ngFor="let founder of founders">
-      <img
-        src="founders/images/ahmed.png"
-        class="img-fluid rounded-circle"
-        alt="Ahmed Neanaa"
-      />
-      <h5>AHMED NEANAA</h5>
-      <p class="card-text">Co-Founder & Chief Experience Officer</p>
-    </div>
-
-    <!-- ............ -->
-
-    <div class="col-md-3 col-sm-6" *ngFor="let founder of founders">
-      <img
-        src="founders/images/salma.png"
-        class="img-fluid rounded-circle"
-        alt="salma Ashraf"
-      />
-      <h5>SALMA ASHRAF</h5>
-      <p class="card-text">Co-Founder & Chief Business Development Officer</p>
+      <h5>{{ founder.name }}</h5>
+      <p class="card-text">{{ founder.title }}</p>
     </div>
   </div>
 </div>
