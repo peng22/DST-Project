@@ -1,14 +1,18 @@
 <div class="container founders-section">
-  <h3 class="text-center">FOUNDERS</h3>
+  <h2 class="text-center">FOUNDERS</h2>
   <div class="row text-center">
     <div class="col-md-3 col-sm-6" *ngFor="let founder of founders">
       <img
         src="{{ founder.image }}"
-        class="img-fluid rounded-circle"
+        class="img-fluid"
         alt="{{ founder.name }}"
       />
-      <h5>{{ founder.name }}</h5>
+      <div class="des">
+      <h3>{{ founder.name }}</h3>
       <p class="card-text">{{ founder.title }}</p>
+      </div>
     </div>
   </div>
 </div>
+
+

@@ -8,24 +8,24 @@ import { Component } from "@angular/core";
 export class FoundersComponent {
   founders = [
     {
-      name: "Bassem Yahia",
+      name: "BASSEM YAHIA",
       image: "assets/images/founders/bassem.png",
-      title: "Co-Founder",
+      title: "Co-Founder & Chief Executive Officer",
     },
     {
-      name: "Mohamed Yahia",
+      name: "MOHAMED YAHIA",
       image: "assets/images/founders/mohamed.png",
-      title: "Co-Founder",
+      title: "Co-Founder & Chief Marketing Officer",
     },
     {
-      name: "Ahmed Neanaa",
+      name: "AHMED NEANAA",
       image: "assets/images/founders/ahmed.png",
-      title: "Co-Founder",
+      title: "Co-Founder & Chief Experience Officer",
     },
     {
-      name: "Salma Ashraf",
+      name: "SALMA ASHRAF",
       image: "assets/images/founders/salma.png",
-      title: "Co-Founder",
+      title: "Co-Founder & Chief Business Development Officer",
     },
   ];
 }
